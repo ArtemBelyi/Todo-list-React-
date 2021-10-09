@@ -1,0 +1,14 @@
+.todo-list-item {
+    font-size: 25px;
+}
+.todo-list-item__button {
+    width: 35px;
+    margin: 5px;
+}
+.todo-list-item-label {
+    margin-left: 5px;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+    flex-grow: 1;
+}

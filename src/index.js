@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import AppHeader from './components/AppHeader';
-import TodoList from './components/TodoList';
-import SearchPanel from './components/SearchPanel';
+import AppHeader from './components/AppHeader/AppHeader';
+import TodoList from './components/TodoList/TodoList';
+import SearchPanel from './components/SearchPanel/SearchPanel';
 
 const App = () => {
 
     const todoData = [
-        {label: 'Drink Coffee 1', important: false},
-        {label: 'Drink Coffee 2', important: true},
-        {label: 'Drink Coffee 3', important: false}
+        {label: 'Drink Coffee 1', important: false, id: 1},
+        {label: 'Drink Coffee 2', important: true, id: 2},
+        {label: 'Drink Coffee 3', important: false, id: 3}
     ]
     return (
         <div>
