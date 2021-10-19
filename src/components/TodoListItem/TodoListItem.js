@@ -3,7 +3,7 @@ import './TodoListItem.css'
 
 export default class TodolistItem extends React.Component {
 
-    state = { value: 'dron'}
+    state = { value: 'dron', branch: 'drrr'}
 
     render() {
         const { label, onDeleted, onToggleDone, onToggleImportant, important, done } = this.props
