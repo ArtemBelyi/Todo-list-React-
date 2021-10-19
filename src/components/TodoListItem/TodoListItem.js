@@ -3,6 +3,8 @@ import './TodoListItem.css'
 
 export default class TodolistItem extends React.Component {
 
+    state = { value: 'dron'}
+
     render() {
         const { label, onDeleted, onToggleDone, onToggleImportant, important, done } = this.props
         let className = 'todo-list-item d-flex'
